@@ -1,6 +1,6 @@
 import './Cards.css';
 
-const Cards = ({ colors }) => {
+const Cards = ({ colors, handleClick }) => {
   const getRandomColors = (colors, colorAmount = 8) => {
     const usedColors = [];
 
