@@ -36,7 +36,11 @@ function App() {
 
   return (
     <div>
-      <Cards colors={colors} />
+      <div className="header">
+        <div>score: {score}</div>
+        <div>highscore: {highScore}</div>
+      </div>
+      <Cards colors={colors} handleClick={handleClick} />
     </div>
   );
 }
