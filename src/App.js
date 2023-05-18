@@ -1,5 +1,6 @@
 import Cards from './Cards';
 import { useState } from 'react';
+import './App.css';
 
 function App() {
   const [colors, setColors] = useState([
