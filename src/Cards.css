@@ -1,0 +1,5 @@
+.grid {
+  display: grid;
+  grid: 1fr 1fr / repeat(4, 1fr);
+  justify-items: center;
+}
