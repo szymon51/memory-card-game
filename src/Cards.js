@@ -17,6 +17,9 @@ const Cards = ({ colors, handleClick }) => {
     return getRandomColors(colors).map((randomColor) => {
       return (
         <div
+          onClick={handleClick}
+          key={randomColor}
+          className={randomColor}
           style={{
             backgroundColor: randomColor,
             width: '200px',
