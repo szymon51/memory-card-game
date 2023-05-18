@@ -28,6 +28,7 @@ function App() {
     if (chosenColors.includes(e.target.className)) {
       if (score > highScore) setHighScore(score);
       setScore(0);
+      setChosenColors([]);
     } else {
       setScore(score + 1);
       setChosenColors(chosenColors.concat(e.target.className));
